@@ -1,0 +1,18 @@
+node_modules
+dist
+dist-ssr
+*.local
+
+# Variables de entorno con credenciales — NUNCA subir esto
+.env
+.env.local
+
+# Firebase
+.firebase
+firebase-debug.log
+.firebaserc
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.DS_Store

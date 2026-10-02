@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- ── PWA: manifest e íconos ──────────────────────────────────────── -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="FINANSAS04" />
+
+    <!-- ── Tema y viewport ─────────────────────────────────────────────── -->
+    <meta name="theme-color" content="#0b3d3a" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- ── SEO / descripción ───────────────────────────────────────────── -->
+    <meta name="description" content="Controla tus finanzas personales: ingresos, gastos, metas de ahorro y más." />
+    <meta name="application-name" content="FINANSAS04" />
+
+    <!-- ── Open Graph (compartir en redes) ─────────────────────────────── -->
+    <meta property="og:title" content="FINANSAS04 — Control de tus finanzas personales" />
+    <meta property="og:description" content="Registra ingresos y gastos, define metas de ahorro y organiza tus categorías." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icon-512.png" />
+
+    <!-- ── Ícono del navegador ─────────────────────────────────────────── -->
+    <link rel="icon" type="image/png" href="/icon-192.png" />
+
+    <title>Finanzas — Control de tus finanzas personales</title>
+
+    <!-- ── Fuentes ─────────────────────────────────────────────────────── -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
